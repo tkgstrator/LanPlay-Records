@@ -3,7 +3,7 @@ name: 記録のアップデート
 on:
   push:
     branches:
-      - master
+      - lanplay
   schedule:
     - cron: '*/10 * * * *'
 
@@ -36,5 +36,5 @@ jobs:
           if (git diff --shortstat | grep '[0-9]'); then \
             git add .; \
             git commit -m "LanPlayの記録をアップデート"; \
-            git push origin master; \
+            git push origin lanplay; \
           fi
