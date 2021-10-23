@@ -28,7 +28,7 @@ jobs:
         run: |
           git checkout lanplay
 
-      - name: Run right.py # PythonでAPIからデータ取得
+      - name: Run main.py # PythonでAPIからデータ取得
         run: |
           python main.py
 
