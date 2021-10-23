@@ -1,9 +1,9 @@
-name: LanPlayの記錄のアップデート
+name: SalmonStatsの記錄のアップデート
 
 on:
   push:
     branches:
-      - lanplay
+      - salmonstats
   schedule:
     - cron: '*/10 * * * *'
 
@@ -24,9 +24,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Checkout LanPlay branche # LanPlayブランチに切り替え
+      - name: Checkout SalmonStats branche # LanPlayブランチに切り替え
         run: |
-          git checkout lanplay
+          git checkout salmonstats
 
       - name: Run right.py # PythonでAPIからデータ取得
         run: |
@@ -40,5 +40,5 @@ jobs:
           if (git diff --shortstat | grep '[0-9]'); then \
             git add .; \
             git commit -m "- LanPlayの記録をアップデート"; \
-            git push origin lanplay; \
+            git push origin salmonstats; \
           fi
