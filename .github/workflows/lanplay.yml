@@ -1,11 +1,7 @@
-name: LanPlayの記錄のアップデート
+name: LanPlayの記錄の手動アップデート
 
 on:
-  push:
-    branches:
-      - lanplay
-  schedule:
-    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
