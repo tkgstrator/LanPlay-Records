@@ -487,11 +487,11 @@
         "stage_id": 4,
         "water_level": 2,
         "event_type": 2,
-        "golden_ikura_num": 182,
+        "golden_ikura_num": 200,
         "ikura_num": "",
         "players": "",
-        "weapon_list": "1020, 5000, 5000, 20020",
-        "movie": "https://www.youtube.com/watch?v=_z5U4txUn00",
+        "weapon_list": "5000, 5000, 5000, 20020",
+        "movie": "https://video.twimg.com/ext_tw_video/1488876590624772100/pu/vid/1280x720/3pCca_wA07zIj9N0.mp4",
         "seed": ""
     },
     {
@@ -927,11 +927,11 @@
         "stage_id": 4,
         "water_level": 2,
         "event_type": 5,
-        "golden_ikura_num": 98,
+        "golden_ikura_num": 100,
         "ikura_num": "",
         "players": "",
-        "weapon_list": "20, 200, 1030, 5000",
-        "movie": "https://www.youtube.com/watch?v=JIZJCLUCHJg",
+        "weapon_list": "5000, 5000, 5000, 5000",
+        "movie": "https://www.youtube.com/watch?v=bQLSpwlE-Dc",
         "seed": ""
     },
     {
