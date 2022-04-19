@@ -1,4 +1,6 @@
-# salmonrun-records
+# LanPlay Records
+
+I have a plan to use Vue3 + Vite in next version.
 
 ## Build Setup
 
@@ -18,3 +20,5 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+https://salmonrun-records.netlify.app/
