@@ -91,11 +91,11 @@
         "stage_id": 4,
         "water_level": 3,
         "event_type": 0,
-        "golden_ikura_num": 405,
+        "golden_ikura_num": 425,
         "ikura_num": "",
         "players": "",
-        "weapon_list": "1020, 2050, 2050, 5000",
-        "movie": "https://www.youtube.com/watch?v=arz8zesIvdA",
+        "weapon_list": "1020, 5000, 5000, 20020",
+        "movie": "https://video.twimg.com/ext_tw_video/1516423703852388352/pu/vid/1280x720/GEloUswpAwzvZIsp.mp4",
         "seed": "0x59293E5A"
     },
     {
